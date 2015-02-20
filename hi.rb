@@ -1,4 +1,5 @@
 # hi.rb
 require 'sinatra'
-get 'hi' do "Hello world!"
+get 'hi' do 
+  'Hello world!'
 end
